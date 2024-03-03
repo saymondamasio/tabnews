@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-async function status(req: NextResponse) {
+async function status(req: Request) {
   return NextResponse.json({ chave: "valor" }, { status: 200 });
 }
 
